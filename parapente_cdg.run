@@ -1,0 +1,26 @@
+LOAD .\parapente_cdg.avl
+MASS
+ .\parapente_cdg.mass
+MSET
+0
+PLOP
+g
+
+
+OPER
+c1
+G 1.3000
+v 10.0000
+
+x
+st
+.\parapente_cdg.st
+sb
+.\parapente_cdg.sb
+
+MODE
+n
+w
+.\parapente_cdg.eig
+
+Quit

@@ -1,0 +1,26 @@
+#
+#  Allegro-Lite 2-meter RES glider 
+#  Mass & Inertia breakdown
+#
+#  xyz is location of item's own CG
+#  Ixx.. are item's inertias about item's own CG
+#
+#   x back
+#   y right
+#   z up
+#
+#  x,y,z system here must have origin 
+#  at same location as AVL input file
+#
+Lunit = 1 m
+Munit = 1 kg
+Tunit = 1.0 s
+
+g   = 9.81
+rho = 1.225
+
+#
+#  mass   x     y     z      Ixx     Iyy     Izz   [ Ixy  Ixz  Iyz ]
+#
+90 0.63044 0 -2.9972 0 0 0 0 0 0
+10 0.5 0 0 0 0 0 0 0 0
